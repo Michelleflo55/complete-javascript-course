@@ -1,3 +1,4 @@
+//values and variables
 let country = 'USA'
 let continent = 'North America'
 let population = '8000'
