@@ -1,6 +1,42 @@
-//values and variables
+// values and variables
 let country = 'USA'
 let continent = 'North America'
 let population = '8000'
 
-console.log('I was born in '+ country + ' which is in ' + continent + ' where the population is ' + population + ' people.' )
+// console.log('I was born in '+ country + ' which is in ' + continent + ' where the population is ' + population + ' people.' )
+ 
+//Data types
+//  let isIsland = false
+//  let language
+//  console.log(typeof isIsland)
+//  console.log(language)
+//  console.log(typeof country)
+//  console.log(typeof continent)
+//  console.log(typeof population)
+
+//LET, CONST, VAR
+
+// let spokenLanguage = 'English'
+//     console.log(spokenLanguage)
+//     spokenLanguage = 'Spanish'
+//     console.log(spokenLanguage)
+
+// const English = true
+//     console.log(English)
+//     English = 'yes'
+
+//OPERATORS
+//1
+    let splitPopulation = population /2
+    console.log (splitPopulation)
+//2
+    population++
+    console.log(population)
+//3
+    let Finland = 6000000
+    console.log(population > Finland)
+//4
+    const isAveragePopulation = population >= 33000000 
+    console.log(isAveragePopulation)
+//5
+    let description = 'Portugal is in Europe, and its 11 million people speak portuguese'
