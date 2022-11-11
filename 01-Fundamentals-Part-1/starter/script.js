@@ -12,6 +12,7 @@
 // let mySecondJob = 'developer'
 
 // console.log(myFirstJob + ' was my first job, but now I am a ' + mySecondJob)
+////////////////////////////////////
 
 // DATA TYPES
 
@@ -34,7 +35,7 @@
 // console.log(year)
 
 // console.log(typeof null)
-
+////////////////////////////////////////////////////////////
 
 // LET CONST VAR
 
@@ -47,33 +48,53 @@
 //   firstName = 'liz'
 //   console.log(firstName)
 
+//////////////////////////////////////////////
 
-//Operators
-//using the (-) operator 
-const now = 2022
-const ageMichelle = now - 1994
-const ageChristian = now - 1996
-    console.log(ageMichelle, ageChristian)
+// //Operators
+// //using the (-) operator 
+// const now = 2022
+// const ageMichelle = now - 1994
+// const ageChristian = now - 1996
+//     console.log(ageMichelle, ageChristian)
 
-console.log(ageChristian *2, ageMichelle /2, 2 ** 3 )
-//2 **3 means 2 to the power of 3 = 2 * 2 * 2
-//MATH OPERATORS  
-const firstName = 'Michelle'
-const lastName = 'Flores'
-console.log(firstName + ' ' + lastName)
+// console.log(ageChristian *2, ageMichelle /2, 2 ** 3 )
+// //2 **3 means 2 to the power of 3 = 2 * 2 * 2
+// //MATH OPERATORS  
+// const firstName = 'Michelle'
+// const lastName = 'Flores'
+// console.log(firstName + ' ' + lastName)
 
-//ASSIGNMENT OPERATORS
-let x = 10 + 5
-x += 10  // x = x + 10 =25
-x *= 2 // x = x * 2  = 50
-x ++   //x = x + 1
-x -- //opposite of + 1 
-console.log(x)
+// //ASSIGNMENT OPERATORS
+// let x = 10 + 5
+// x += 10  // x = x + 10 =25
+// x *= 2 // x = x * 2  = 50
+// x ++   //x = x + 1
+// x -- //opposite of + 1 
+// console.log(x)
 
-// COMPARISON OPERATORS
-    console.log(ageChristian > ageMichelle) // >, < , <=, >=
-    console.log( ageChristian >= 20)
+// // COMPARISON OPERATORS
+//     console.log(ageChristian > ageMichelle) // >, < , <=, >=
+//     console.log( ageChristian >= 20)
 
-    const isFullAge = ageChristian >= 20
+//     const isFullAge = ageChristian >= 20
 
+//     console.log(now -1991 > now - 2022)
+
+
+
+    ///////////////////////////////
+    //Operator Precedence
+    const now = 2022
+    const ageMichelle = now - 1994
+    const ageChristian = now - 1996
     console.log(now -1991 > now - 2022)
+
+    console.log(25-10-5) //left to right execution 
+    
+    let x, y;
+    x = y = 25 - 10 - 5  
+    //25 - 10 - 5 is executed first
+    //leaving x = y = 10 
+    // leads to x = 10
+    console.log(x,y) //right to left execution
+     

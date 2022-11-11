@@ -27,16 +27,17 @@ let population = '8000'
 
 //OPERATORS
 //1
-    let splitPopulation = population /2
-    console.log (splitPopulation)
-//2
-    population++
-    console.log(population)
-//3
-    let Finland = 6000000
-    console.log(population > Finland)
-//4
-    const isAveragePopulation = population >= 33000000 
-    console.log(isAveragePopulation)
-//5
-    let description = 'Portugal is in Europe, and its 11 million people speak portuguese'
+//     let splitPopulation = population /2
+//     console.log (splitPopulation)
+// //2
+//     population++
+//     console.log(population)
+// //3
+//     let Finland = 6000000
+//     console.log(population > Finland)
+// //4
+//     const isAveragePopulation = population >= 33000000 
+//     console.log(isAveragePopulation)
+// //5
+//     let description = 'Portugal is in Europe, and its 11 million people speak portuguese'
+//     console.log(description)
