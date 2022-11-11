@@ -41,3 +41,13 @@ let population = '8000'
 // //5
 //     let description = 'Portugal is in Europe, and its 11 million people speak portuguese'
 //     console.log(description)
+
+//TEMPLATE LITERALS 
+    //1 
+    // let myCountry = 'USA'
+    // let myCity = 'El Paso'
+    // let myState = 'Texas'
+
+    // let myIntro = `I was born in the great state of ${myState}, where 
+    // Billy The Kid once roamed. ${myCity} is the best city in ${myCountry}!`
+    // console.log(myIntro)
