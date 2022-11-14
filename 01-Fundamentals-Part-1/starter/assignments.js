@@ -1,7 +1,7 @@
 // values and variables
 let country = 'USA'
 let continent = 'North America'
-let population = '8000'
+let population = '34000000'
 
 // console.log('I was born in '+ country + ' which is in ' + continent + ' where the population is ' + population + ' people.' )
  
@@ -51,3 +51,13 @@ let population = '8000'
     // let myIntro = `I was born in the great state of ${myState}, where 
     // Billy The Kid once roamed. ${myCity} is the best city in ${myCountry}!`
     // console.log(myIntro)
+
+    ////////////////////////////
+    //IF ELSE STATEMENTS
+    // if(population >= 33000000){
+    //     console.log('USA population is above average')
+    // } else {
+    //     const averagePopulation = 33000000 - population 
+    //     console.log(`USA populaltion is ${averagePopulation} below average`)
+    // }
+

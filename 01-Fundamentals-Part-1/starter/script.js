@@ -94,7 +94,7 @@
     //  console.log(25-10-5) 
     
     //     //right to left execution
-    // let x, y;
+    // let x, y; 
     // x = y = 25 - 10 - 5  
     // //25 - 10 - 5 is executed first
     // //leaving x = y = 10 then because it is read right to left, it becomes 
