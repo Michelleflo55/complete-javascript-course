@@ -86,24 +86,7 @@
     // //Operator Precedence
 
     // //left to right execution 
-    // const now = 2022
-    // const ageMichelle = now - 1994
-    // const ageChristian = now - 1996
-    // console.log(now -1991 > now - 2022)
-
-    //  console.log(25-10-5) 
     
-    //     //right to left execution
-    // let x, y; 
-    // x = y = 25 - 10 - 5  
-    // //25 - 10 - 5 is executed first
-    // //leaving x = y = 10 then because it is read right to left, it becomes 
-    // // y = 10 and since x = y which is 10 
-    // // leads to x = 10
-    // console.log(x,y) 
-    
-    // const averageAge = (ageChristian + ageMichelle) / 2
-    // console.log(ageChristian, ageMichelle, averageAge)
 
 ////////////////////////////////////////////////
 //STRING & TEMPLATE LITERAL
@@ -130,21 +113,24 @@
 /////////////////////
 //IF ELSE STATEMENTS
 
-const age = 15
+// const age = 15
 
-if (age >= 18){
-    console.log('Michelle can start driving license 🥹')
-} else {
-    const yearsLeft = 18-age
-    console.log(`Sorry you have ${yearsLeft} years until you can drive` )
-}
+// if (age >= 18){
+//     console.log('Michelle can start driving license 🥹')
+// } else {
+//     const yearsLeft = 18-age
+//     console.log(`Sorry you have ${yearsLeft} years until you can drive` )
+// }
 
- const bornIn = 2012    
-    let century;
+//  const bornIn = 2012    
+//     let century;
 
- if(bornIn <= 2000){
-   century = 20
- } else{
-    century = 21
- }
-console.log(century)
+//  if(bornIn <= 2000){
+//    century = 20
+//  } else{
+//     century = 21
+//  }
+// console.log(century)
+
+///////////////////////////////
+//TYPE CONVERSION AND COERSION 
