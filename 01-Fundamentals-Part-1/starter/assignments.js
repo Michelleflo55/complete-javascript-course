@@ -61,3 +61,37 @@ let population = '34000000'
     //     console.log(`USA populaltion is ${averagePopulation} below average`)
     // }
 
+//////////////////////
+//TYPE CONVERSION AND COHERSION
+//1 Predict the result of these 5 operations without executing them:
+// '9' - '5'; // '4'
+// '19' - '13' + '17'; // '617'
+// '19' - '13' + 17; // '23'
+// '123' < 57; // FALSE    
+// 5 + 6 + '4' + 9 - 4 - 2; 
+// //adds 5+6 concatenates the 4
+// //concatenates 114 to subtraction of 9-4-2 =3 
+// // 1143 
+
+
+//////////////////////////////////
+///EQUALITY OPERATORS: == VS ===
+// //1
+// const numNeighbors = Number(prompt('How many neighbor countries does your country have?'))
+//     if(numNeighbors ===  1) {
+//         console.log('Only 1 border')
+//     } else if (numNeighbors > 1) {
+//         console.log('More than one border')
+//     } else {
+//         console.log('No borders')
+//     }
+
+
+
+//////////////////////////////////////
+//LOGICAL OPERATORS
+    speaksEnglish = true
+    lessPopulation = true
+    isAnIsland = true
+
+    
