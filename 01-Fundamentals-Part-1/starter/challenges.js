@@ -28,3 +28,4 @@
 //     console.log( `John's BMI of (${johnBMI}) is higher than Mark's by (${bmiDifference})!`)
 // }
 ///////////////////////////
+///Challenge #3
