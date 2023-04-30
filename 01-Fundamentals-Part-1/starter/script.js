@@ -247,3 +247,33 @@
 //    } else {
 //        console.log('someone else should drive')
 //    }
+
+
+/////////////////////////////////
+// THE SWITCH STATEMENT 
+
+const day = 'Summer'
+
+switch(day){
+    case 'Monday': // day === 'Monday' if true, code below will be executed
+        console.log('Plan course structure')
+        console.log('Go to coding meetup')
+        break;
+    case 'Tuesday':
+        console.log('Prepare thoery videos')
+        break;
+    case 'Wednesday':
+    case 'Thursday':
+        console.log('Write code examples')
+        break
+    case 'Friday':
+        console.log('Record Videos')
+        break
+    case 'Saturday':
+    case 'Sunday':
+        console.log('Enjoy the weekend')    
+        break
+    default:
+        console.log('Not a valid day')  
+}
+ 

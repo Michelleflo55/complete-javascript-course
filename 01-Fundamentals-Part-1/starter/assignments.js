@@ -90,8 +90,8 @@ let population = '34000000'
 
 //////////////////////////////////////
 //LOGICAL OPERATORS
-    speaksEnglish = true
-    lessPopulation = true
-    isAnIsland = true
+    // speaksEnglish = true
+    // lessPopulation = true
+    // isAnIsland = true
 
     

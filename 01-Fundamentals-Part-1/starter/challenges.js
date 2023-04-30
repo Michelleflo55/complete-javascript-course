@@ -29,3 +29,21 @@
 // }
 ///////////////////////////
 ///Challenge #3
+// let averageScoreDolphins = (97 + 112 + 101 ) / 3;
+// let averageScoreKoalas = (109 + 95+ 106) / 3;
+// let minScore = 100
+// let draw = averageScoreDolphins >= 100 && averageScoreKoalas >= 100
+
+// if (averageScoreDolphins > averageScoreKoalas && averageScoreDolphins >= minScore ){
+//     let scoreDifference = averageScoreDolphins - averageScoreKoalas
+//     console.log(`Dolphin's average score is greater by ${scoreDifference} points` )
+// } else if (averageScoreKoalas > averageScoreDolphins && averageScoreKoalas >= minScore){
+//     let scoreDifference = averageScoreKoalas - averageScoreDolphins
+//     console.log(`Koala's average score is greater by ${scoreDifference} points`)
+// } else if(averageScoreKoalas === averageScoreDolphins && draw === true){
+//     console.log('Both teams averaged a draw')
+//     console.log(draw)
+// } else {
+//     console.log('Nobody wins')
+    
+// }
