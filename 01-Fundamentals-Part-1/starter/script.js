@@ -252,28 +252,39 @@
 /////////////////////////////////
 // THE SWITCH STATEMENT 
 
-const day = 'Summer'
+// const day = 'Sunday'
 
-switch(day){
-    case 'Monday': // day === 'Monday' if true, code below will be executed
-        console.log('Plan course structure')
-        console.log('Go to coding meetup')
-        break;
-    case 'Tuesday':
-        console.log('Prepare thoery videos')
-        break;
-    case 'Wednesday':
-    case 'Thursday':
-        console.log('Write code examples')
-        break
-    case 'Friday':
-        console.log('Record Videos')
-        break
-    case 'Saturday':
-    case 'Sunday':
-        console.log('Enjoy the weekend')    
-        break
-    default:
-        console.log('Not a valid day')  
+// switch(day){
+//     case 'Monday': // day === 'Monday' if true, code below will be executed
+//         console.log('Plan course structure')
+//         console.log('Go to coding meetup')
+//         break;
+//     case 'Tuesday':
+//         console.log('Prepare thoery videos')
+//         break;
+//     case 'Wednesday':
+//     case 'Thursday':
+//         console.log('Write code examples')
+//         break
+//     case 'Friday':
+//         console.log('Record Videos')
+//         break
+//     case 'Saturday':
+//     case 'Sunday':
+//         console.log('Enjoy the weekend')    
+//         break
+//     default:
+//         console.log('Not a valid day')  
+// }
+
+let day = 'Sunday'
+    if (day === 'Monday' || 'Wednesday' || 'Saturday'){
+    console.log('these days are cool')
+} else if (day === 'Tuesday' || 'Thursday' || 'Friday'){
+    console.log('I do not like these days')
+} else if (day === 'Sunday'){
+    console.log('it is the Lords day')
+} else {
+    console.log(' not a valid day')
 }
  
