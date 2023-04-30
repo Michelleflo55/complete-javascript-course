@@ -277,14 +277,37 @@
 //         console.log('Not a valid day')  
 // }
 
-let day = 'Sunday'
-    if (day === 'Monday' || 'Wednesday' || 'Saturday'){
-    console.log('these days are cool')
-} else if (day === 'Tuesday' || 'Thursday' || 'Friday'){
-    console.log('I do not like these days')
-} else if (day === 'Sunday'){
-    console.log('it is the Lords day')
-} else {
-    console.log(' not a valid day')
-}
+//     if (day === 'Monday' || day === 'Wednesday' || day === 'Saturday'){
+//     console.log('these days are cool')
+// } else if (day === 'Tuesday' || day ===  'Thursday' || day === 'Friday'){
+//     console.log('I do not like these days')
+// } else if (day === 'Sunday'){
+//     console.log('it is the Lords day')
+// } else {
+//     console.log(' not a valid day')
+// }
+ //////////////////////////////////////
+ // STATEMENTS AND EXPRESSIONS 
  
+//Below are expressions that will produce value 
+// 3+ 4
+// 1991
+// true && false && !false 
+
+//  //Below is a statement that produces no value
+//  if (23 > 10){
+//     const str = '23 is bigger'
+//  }
+//expression below
+// console.log(`I'm ${2037 -1991} years old`)
+
+//expression and  statement below 
+// let me = 'Michelle '
+// console.log(`I'm ${2037 -1994} year old ${me}`)
+ //////////////////////////////////////
+ //CONDITIONAL TERNARY OPERATOR
+ const age = 28
+//  age >= 18 ? console.log('I like to drink wine') : console.log('I like to drink water')
+
+ const drink = age >= 18 ? 'wine' : 'water'
+ console.log(drink)

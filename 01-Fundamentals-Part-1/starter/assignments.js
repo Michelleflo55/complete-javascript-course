@@ -94,4 +94,25 @@ let population = '34000000'
     // lessPopulation = true
     // isAnIsland = true
 
-    
+///////////////////////////////////////
+// SWITCH STATEMENT
+
+// let language = 'Hebrew'
+//     switch (language){
+//         case language = 'Chinese' || 'Mandarin':
+//             console.log('MOST number of native speakers')
+//         break
+//         case language = 'Spanish':
+//             console.log('2nd place in number of native speakers')
+//         break
+//         case language = 'English':
+//             console.log('3rd place')
+//         break 
+//         case language = 'Hindi':
+//             console.log('Number 4')
+//         break
+//         case language = 'Arabic':
+//             console.log('5th most spoken language')
+//         break
+//         default: console.log('Great language too!') 
+//     }
