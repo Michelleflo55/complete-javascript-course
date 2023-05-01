@@ -1,7 +1,7 @@
 // values and variables
-let country = 'USA'
-let continent = 'North America'
-let population = '34000000'
+// let country = 'USA'
+// let continent = 'North America'
+// let population = '34000000'
 
 // console.log('I was born in '+ country + ' which is in ' + continent + ' where the population is ' + population + ' people.' )
  
@@ -116,3 +116,12 @@ let population = '34000000'
 //         break
 //         default: console.log('Great language too!') 
 //     }
+
+ //////////////////////////////////////
+ //TERNARY OPERATORS
+//  let countryPopulation = 13
+//     countryPopulation >= 33000000 ? console.log('Portugals population is above average'):console.log('Portugals population is below average')
+
+    // const population = 300000000
+    // const averagePopulation = population >= 3000000 ? 'population is above average': 'population is below average'
+    // console.log(averagePopulation )

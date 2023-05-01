@@ -47,3 +47,20 @@
 //     console.log('Nobody wins')
     
 // }
+
+ //////////////////////////////////////
+ // CHALLENGE #4 TERNARY OPERATORS
+  
+//   let bill =400
+//   let tip
+  
+//   if (bill >= 50 && bill <=300){
+//     tip = bill * .15
+//     console.log(bill, tip, `your total of ${tip + bill} consists of your bill ${bill} plus tip ${tip}`)
+//   } else {
+//     tip = bill * .2
+//     console.log(bill, tip, `your total of ${tip + bill} consists of your bill ${bill} plus tip ${tip}`)
+//   }
+
+//   const total = bill >= 50 && bill <= 300? (tip = bill * .15) && `Your bill of ${bill} plus ${tip} tip equals to ${bill + tip}`: (tip = bill * .2 )  &&  `Your bill of ${bill} plus ${tip} tip equals to ${bill + tip}`
+//   console.log(total)
