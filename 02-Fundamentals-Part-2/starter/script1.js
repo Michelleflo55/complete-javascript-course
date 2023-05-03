@@ -95,8 +95,35 @@
 // console.log(fruitProcessor(2,3))
 
 
-const person = (firstName, lastName) => {
-  return `Hello, my name is ${firstName} ${lastName}`
+// const person = (firstName, lastName) => {
+//   return `Hello, my name is ${firstName} ${lastName}`
+// }
+// const firstUser = person('Mitch', 'Flores')
+// console.log(firstUser)
+
+
+  ///////////////////////////////////////
+
+//REVIEWING FUNCTIONS
+
+
+const calcAge = function(birthYear){
+  return 2037 - birthYear
 }
-const firstUser = person('Mitch', 'Flores')
-console.log(firstUser)
+
+const yearsUntilRetirement = function (birthYear, firstName) {
+  const age = calcAge(birthYear)
+  const retirement = 65 - age
+  if (retirement > 0) {
+    return retirement;
+    console.log(`${firstName} retires in ${retirement} years`) //console wont be read because return statement immediately exits and returns function
+    // console code wont be reached  
+  } else {
+    console.log(`${firstName} has already retired`)
+    return -1
+  }
+
+}
+
+console.log(yearsUntilRetirement(1994, 'Michelle'))
+console.log(yearsUntilRetirement(1950, 'Ruby'))
