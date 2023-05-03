@@ -60,3 +60,43 @@
 // console.log(age1, age2)
 
   ///////////////////////////////////////
+//   //ARROW FUNCTIONS 
+
+// //special form of a function expression. 
+// //ARROW FUNCTION
+//   const calcAge3 = birthYear => 2037 - birthYear
+//   const age3 = calcAge3(1994)
+//   console.log(age3)
+
+// const yearsUntilRetirement = (birthYear, firstName) => {
+//   const age = 2037 - birthYear
+//   const retirement = 65 - age
+//   return `${firstName} retires in ${retirement} years`
+// }
+// console.log(yearsUntilRetirement(1994, 'Michelle'))
+// console.log(yearsUntilRetirement(1993, 'Ruby'))
+
+
+// ///////////////////////////////////////\
+//FUNCTIONS CALLING OTHER FUNCTIONS
+
+// function cutFruitPieces(fruit){
+//   return fruit * 4
+// }
+
+// function fruitProcessor(apples, oranges){
+//   const applePieces = cutFruitPieces(apples)
+//   const orangePieces = cutFruitPieces(oranges)
+
+
+//   const juice = `Juice with ${applePieces} apple pieces and ${orangePieces} oranges pieces .`
+//   return juice
+// }
+// console.log(fruitProcessor(2,3))
+
+
+const person = (firstName, lastName) => {
+  return `Hello, my name is ${firstName} ${lastName}`
+}
+const firstUser = person('Mitch', 'Flores')
+console.log(firstUser)

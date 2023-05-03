@@ -44,4 +44,25 @@
 //         populationPercentage2 = percentageOfWorld2(1000000000)
 //         console.log(populationPercentage2)
 
-///////////////////////////////////////
+// ///////////////////////////////////////
+//   //ARROW FUNCTIONS 
+//   const percentageOfWorld3 = population => (population /7900000000 ) * 100
+//   console.log(percentageOfWorld3(1999999))
+
+// ///////////////////////////////////////
+//FUNCTIONS CALLING OTHER FUNCTIONS
+//funtion declaration below
+//  function percentageOfWorld1(people){
+//     return (people / 7900000000)* 100
+// }
+// //above will give you percentage based of people/ world population
+
+
+// //function expression by using an arrow function
+//  const describePopulation = (country, population) => {
+//     let populationCount = percentageOfWorld1(population) //population is the argument for the parameter people above
+//     return `${country} has ${population} people, which is about ${populationCount}% of the world.`
+//  }
+//  console.log(describePopulation('USA', 1000000))
+//  console.log(describePopulation('Mexico', 2000000))
+//  console.log(describePopulation('Costa Rica', 3000000))
