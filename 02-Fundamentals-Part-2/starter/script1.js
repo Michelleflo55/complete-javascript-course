@@ -107,23 +107,68 @@
 //REVIEWING FUNCTIONS
 
 
-const calcAge = function(birthYear){
-  return 2037 - birthYear
-}
+// const calcAge = function(birthYear){
+//   return 2037 - birthYear
+// }
 
-const yearsUntilRetirement = function (birthYear, firstName) {
-  const age = calcAge(birthYear)
-  const retirement = 65 - age
-  if (retirement > 0) {
-    return retirement;
-    console.log(`${firstName} retires in ${retirement} years`) //console wont be read because return statement immediately exits and returns function
-    // console code wont be reached  
-  } else {
-    console.log(`${firstName} has already retired`)
-    return -1
+// const yearsUntilRetirement = function (birthYear, firstName) {
+//   const age = calcAge(birthYear)
+//   const retirement = 65 - age
+//   if (retirement > 0) {
+//     return retirement;
+//     console.log(`${firstName} retires in ${retirement} years`) //console wont be read because return statement immediately exits and returns function
+//     // console code wont be reached  
+//   } else {
+//     console.log(`${firstName} has already retired`) // this one will run because its above return statement 
+//     return -1
+//   }
+
+// }
+
+// console.log(yearsUntilRetirement(1994, 'Michelle'))
+// console.log(yearsUntilRetirement(1950, 'Ruby'))
+
+  ///////////////////////////////////////
+  // INTRO TO ARRAYS 
+
+  const friend1 = 'Michael'
+  const friend2 = 'Steven'
+  const friend3 = 'Peter'
+
+  const friends = ['Michelle', 'Ruby', 'Jazmin']
+  console.log(friends)
+
+  // const years = new Array(1992, 1993, 1994)
+  // console.log(years)
+
+  console.log(friends[0])
+  console.log(friends[2])
+  console.log(friends.length)//compute length of elements in array
+  console.log(friends[friends.length-1])//expression to retreive last element
+
+   friends[2] = 'Michelle'//mutating the array replace elements 
+   console.log(friends)
+  //  friends = ['Bob', 'Alice'] //cant mutatue entire array
+
+// you can add multiple data types to array  
+  const firstName  = 'Michelle '
+  const michelle = [firstName, 'Flores ', 2022-1994, friends]
+  console.log(michelle)
+
+
+
+  //EXERCISE 
+  //subtracting an array from a number will NOT work
+  const calcAge = function (birthYear){
+    return 2037 - birthYear 
   }
+  const years = [1990, 1951, 1994, 2022]
+  console.log(calcAge(years)) //NAN //cant do a number - array
+  const age1 = (calcAge([0]))
+  const age2 = (calcAge([1]))
+  const age3 = (calcAge(years[years.length - 1]))//calculating last element
+  console.log(age1,age2,age3)
 
-}
-
-console.log(yearsUntilRetirement(1994, 'Michelle'))
-console.log(yearsUntilRetirement(1950, 'Ruby'))
+  const ages = [calcAge(years[0]), calcAge(years[1])]
+  calcAge(years[years.length - 1])
+  console.log(ages)
